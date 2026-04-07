@@ -27,13 +27,17 @@ The current test coverage focuses on:
 
 ```bash
 npm install
+npx playwright install chromium
 ```
+
+> `chromium` is required because the current Playwright projects are configured to run with Chromium.
 
 ---
 
 ## 2. Required Environment Variables
 
 Create a `.env` file in the project root.
+![alt text](image.png)
 
 You should generate your own API key from The Dog API and store it locally in this file.
 
