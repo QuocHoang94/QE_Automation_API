@@ -27,10 +27,7 @@ The current test coverage focuses on:
 
 ```bash
 npm install
-npx playwright install chromium
 ```
-
-> `chromium` is required because the current Playwright projects are configured to run with Chromium.
 
 ---
 
